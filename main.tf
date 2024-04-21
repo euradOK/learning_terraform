@@ -1,3 +1,7 @@
+variable "AWS_ACCESS_KEY_ID" {
+  description = "The access key ID for your AWS account"
+  type        = string
+}
 data "aws_ami" "app_ami" {
   most_recent = true
 
